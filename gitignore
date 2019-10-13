@@ -1,0 +1,9 @@
+# ignore everthing
+*
+# but with below line, even if they are in subdirectories
+# if uncomment, then the same pattern file also be tracked even in the subdirectories
+!*/
+
+!*.c
+!*.h
+!.gitignore
